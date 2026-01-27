@@ -5,7 +5,7 @@
 <h1 align="center">Superagent</h1>
 
 <p align="center">
-  <strong>Open-source tools that make AI apps safe.</strong>
+  <strong>Open-source tools for making AI apps safe.</strong>
 </p>
 
 <p align="center">
