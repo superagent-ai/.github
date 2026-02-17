@@ -28,6 +28,7 @@ We build tools to make AI agents safer. Block prompt injections, redact sensitiv
 | Tool | Description | |
 |------|-------------|---|
 | [**Superagent SDK**](https://github.com/superagent-ai/superagent) | Detect and block prompt injections, redact PII and secrets, scan repos for threats | ![GitHub stars](https://img.shields.io/github/stars/superagent-ai/superagent?style=flat&label=★) |
+| [**Brin**](https://github.com/superagent-ai/brin) | Package gatweay for AI Agents | ![GitHub stars](https://img.shields.io/github/stars/superagent-ai/brin?style=flat&label=★) |
 | [**VibeKit**](https://github.com/superagent-ai/vibekit) | Run coding agents in isolated sandboxes with data redaction and observability | ![GitHub stars](https://img.shields.io/github/stars/superagent-ai/vibekit?style=flat&label=★) |
 | [**Grok CLI**](https://github.com/superagent-ai/grok-cli) | AI agent that brings Grok directly into your terminal | ![GitHub stars](https://img.shields.io/github/stars/superagent-ai/grok-cli?style=flat&label=★) |
 | [**ReAG**](https://github.com/superagent-ai/reag) | Reasoning Augmented Generation. Query documents with full context, not chunked embeddings | ![GitHub stars](https://img.shields.io/github/stars/superagent-ai/reag?style=flat&label=★) |
