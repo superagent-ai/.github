@@ -28,7 +28,7 @@ AI is making vulnerability discovery cheap, but closing vulnerabilities still re
 
 Superagent is how engineering teams close vulnerabilities without expanding their security team:
 
-> **Find → Validate → Fix → Disclose**
+**Find → Validate → Fix → Disclose**
 
 Find runs continuous adversarial research across repos and agents. Validate proves each finding is real, reproducing it safely and ruling out noise before anything reaches a human. Fix ships a validated fix as a PR your team reviews and merges. Disclose handles coordinated disclosure from embargo to advisory.
 
