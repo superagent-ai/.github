@@ -16,6 +16,10 @@
   <a href="https://huggingface.co/superagent-ai">HuggingFace</a>
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Y%20Combinator-W24-orange" alt="Y Combinator W24" />
+</p>
+
 ---
 
 ## Overview
@@ -52,56 +56,33 @@ One engine, one GitHub-native workflow, one output: a pull request with a valida
 
 ---
 
-## Core Ecosystem
+## Why Superagent?
 
-### [superagent](https://github.com/superagent-ai/superagent) — Core SDK
-- **Stars:** ~6.6k | **Forks:** ~959 | **Language:** TypeScript
-- Detect and block prompt injections, redact PII and secrets, scan repos for threats. Embed safety directly into your app.
+AI is making vulnerability discovery cheap. Finding a flaw is becoming free. The cost didn't vanish — it moved.
 
-### [superagent-github](https://github.com/superagent-ai/superagent-github) — GitHub App
-- **Stars:** 4 | **Language:** TypeScript
-- Automatically scans pull requests for security threats and evaluates contributor trust profiles.
+Closing a vulnerability means proving it's real, reproducing it safely, writing a fix that doesn't break the build, and getting a human to merge it into main. A bad patch is worse than no patch. A fix that bumps a dependency and breaks the build, or a critical CVE that turns out not to apply to how you actually use the package, costs you more than the quiet bug you never touched.
 
-### [open-cla](https://github.com/superagent-ai/open-cla) — Open CLA Platform
-- **Language:** TypeScript
-- GitHub App PR checks, PDF templates, and e-sign for contributor license agreements.
+The scanners detect and alert, hand you a report, and walk off. A report is a finding that never closed. The model labs are racing to commoditize the beep. The moat was never the model. When the finding is free, the only thing left worth owning is the close.
 
-### [skills](https://github.com/superagent-ai/skills) — Security Skills
-- **Stars:** 68 | **Forks:** 9 | **License:** MIT | **Language:** Python
-- A collection of security skills for AI agents: vulnerability triage, infrastructure auditing, crypto hygiene, and more.
+We don't care what model sits underneath. Best one this month, a different one next month. What we own is the pipeline: validate before anything reaches a person, ship a fix as a PR, get a human to approve and merge. The merge is the enforcement.
 
-### [vibekit](https://github.com/superagent-ai/vibekit) — Agent Sandbox
-- **Stars:** ~1.8k | **Forks:** ~233 | **Language:** TypeScript
-- Run coding agents in isolated sandboxes with data redaction and observability.
-
-### [reag](https://github.com/superagent-ai/reag) — Reasoning Augmented Generation
-- **Stars:** 902 | **Forks:** 59 | **Language:** Python
-- Query documents with full context, not chunked embeddings.
-
-### [grok-cli](https://github.com/superagent-ai/grok-cli) — Coding Agent
-- **Stars:** ~3.2k | **Forks:** ~390 | **Language:** TypeScript
-- An open-source coding agent for the Grok API.
-
-### [brin](https://github.com/superagent-ai/brin) — Context Trust Score
-- **Stars:** 44 | **Forks:** 8 | **Language:** Shell
-- Credit score for context. Measure what AI models miss without threat detection.
+[Read the full thesis →](https://www.superagent.sh/blog/a-bad-patch-is-worse-than-no-patch)
 
 ---
 
-## Notable Repositories
+## Core Ecosystem
 
-| Repository | Stars | Language | Description |
-|---|---|---|---|
-| [superagent](https://github.com/superagent-ai/superagent) | ~6.6k | TypeScript | Detect/block prompt injections, redact PII/secrets, scan repos for threats. |
-| [grok-cli](https://github.com/superagent-ai/grok-cli) | ~3.2k | TypeScript | Open-source coding agent for the Grok API. |
-| [vibekit](https://github.com/superagent-ai/vibekit) | ~1.8k | TypeScript | Run coding agents in isolated sandboxes with redaction and observability. |
-| [reag](https://github.com/superagent-ai/reag) | 902 | Python | Reasoning Augmented Generation. Query documents with full context. |
-| [skills](https://github.com/superagent-ai/skills) | 68 | Python | Collection of security skills for AI agents. |
-| [brin](https://github.com/superagent-ai/brin) | 44 | Shell | Credit score for context. |
-| [open-cla](https://github.com/superagent-ai/open-cla) | — | TypeScript | Open-source CLA platform with GitHub App PR checks and e-sign. |
-| [superagent-github](https://github.com/superagent-ai/superagent-github) | 4 | TypeScript | GitHub App that scans PRs for security threats and evaluates contributor trust. |
+### [superagent](https://github.com/superagent-ai/superagent) — Core SDK
+![GitHub stars](https://img.shields.io/github/stars/superagent-ai/superagent?style=flat&label=%E2%98%85) ![GitHub forks](https://img.shields.io/github/forks/superagent-ai/superagent?style=flat)
+- Detect and block prompt injections, redact PII and secrets, scan repos for threats. Embed safety directly into your app.
 
-*Organization total: 24 repositories. Top languages: TypeScript, Python, JavaScript, Rust, Shell.*
+### [skills](https://github.com/superagent-ai/skills) — Security Skills
+![GitHub stars](https://img.shields.io/github/stars/superagent-ai/skills?style=flat&label=%E2%98%85) ![GitHub forks](https://img.shields.io/github/forks/superagent-ai/skills?style=flat) ![License](https://img.shields.io/github/license/superagent-ai/skills)
+- A collection of security skills for AI agents: vulnerability triage, infrastructure auditing, crypto hygiene, and more.
+
+### [brin](https://github.com/superagent-ai/brin) — Context Trust Score
+![GitHub stars](https://img.shields.io/github/stars/superagent-ai/brin?style=flat&label=%E2%98%85) ![GitHub forks](https://img.shields.io/github/forks/superagent-ai/brin?style=flat)
+- Credit score for context. Measure what AI models miss without threat detection.
 
 ---
 
@@ -121,9 +102,3 @@ One engine, one GitHub-native workflow, one output: a pull request with a valida
 - **Discord:** [discord.gg/spZ7MnqFT4](https://discord.gg/spZ7MnqFT4)
 - **X/Twitter:** [x.com/superagent_ai](https://x.com/superagent_ai)
 - **HuggingFace:** [huggingface.co/superagent-ai](https://huggingface.co/superagent-ai)
-
----
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Y%20Combinator-W24-orange" alt="Y Combinator W24" />
-</p>
