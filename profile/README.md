@@ -24,6 +24,8 @@
 
 ## Why Superagent?
 
+AI is making vulnerability discovery cheap. The cost didn't vanish — it moved.
+
 Superagent is how engineering teams close vulnerabilities without expanding their security team:
 
 > **Find → Validate → Fix → Disclose**
