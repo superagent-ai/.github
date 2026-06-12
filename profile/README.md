@@ -22,6 +22,18 @@
 
 ---
 
+## Why Superagent?
+
+AI is making vulnerability discovery cheap. Finding a flaw is becoming free. The cost didn't vanish — it moved.
+
+Closing a vulnerability means proving it's real, reproducing it safely, writing a fix that doesn't break the build, and getting a human to merge it into main. A bad patch is worse than no patch. A fix that bumps a dependency and breaks the build, or a critical CVE that turns out not to apply to how you actually use the package, costs you more than the quiet bug you never touched.
+
+The scanners detect and alert, hand you a report, and walk off. A report is a finding that never closed. The model labs are racing to commoditize the beep. The moat was never the model. When the finding is free, the only thing left worth owning is the close.
+
+We don't care what model sits underneath. Best one this month, a different one next month. What we own is the pipeline: validate before anything reaches a person, ship a fix as a PR, get a human to approve and merge. The merge is the enforcement.
+
+---
+
 ## Overview
 
 Superagent is an AI security engine for code and agents. Find vulnerabilities across your repos, validate exploit paths, and ship fixes your team approves — all inside your existing GitHub workflow.
@@ -53,20 +65,6 @@ One engine, one GitHub-native workflow, one output: a pull request with a valida
 - **GitHub native:** Install apps and meet your team where they already work. Findings land as check runs and PR comments.
 - **Free for open source:** Public repos get full vulnerability finding, patching, and disclosure at no cost.
 - **10× security work without adding headcount:** Run end-to-end security workflows on private repos and agents with the team you already have.
-
----
-
-## Why Superagent?
-
-AI is making vulnerability discovery cheap. Finding a flaw is becoming free. The cost didn't vanish — it moved.
-
-Closing a vulnerability means proving it's real, reproducing it safely, writing a fix that doesn't break the build, and getting a human to merge it into main. A bad patch is worse than no patch. A fix that bumps a dependency and breaks the build, or a critical CVE that turns out not to apply to how you actually use the package, costs you more than the quiet bug you never touched.
-
-The scanners detect and alert, hand you a report, and walk off. A report is a finding that never closed. The model labs are racing to commoditize the beep. The moat was never the model. When the finding is free, the only thing left worth owning is the close.
-
-We don't care what model sits underneath. Best one this month, a different one next month. What we own is the pipeline: validate before anything reaches a person, ship a fix as a PR, get a human to approve and merge. The merge is the enforcement.
-
-[Read the full thesis →](https://www.superagent.sh/blog/a-bad-patch-is-worse-than-no-patch)
 
 ---
 
