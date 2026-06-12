@@ -24,31 +24,13 @@
 
 ## Why Superagent?
 
-AI is making vulnerability discovery cheap. Finding a flaw is becoming free. The cost didn't vanish — it moved.
-
-Closing a vulnerability means proving it's real, reproducing it safely, writing a fix that doesn't break the build, and getting a human to merge it into main. A bad patch is worse than no patch. A fix that bumps a dependency and breaks the build, or a critical CVE that turns out not to apply to how you actually use the package, costs you more than the quiet bug you never touched.
-
-The scanners detect and alert, hand you a report, and walk off. A report is a finding that never closed. The model labs are racing to commoditize the beep. The moat was never the model. When the finding is free, the only thing left worth owning is the close.
-
-We don't care what model sits underneath. Best one this month, a different one next month. What we own is the pipeline: validate before anything reaches a person, ship a fix as a PR, get a human to approve and merge. The merge is the enforcement.
-
----
-
-## Overview
-
 Superagent is how engineering teams close vulnerabilities without expanding their security team:
 
 > **Find → Validate → Fix → Disclose**
 
-**Find** runs continuous adversarial research across repos and agents, chaining findings the way a real attacker builds a kill chain.
+Find runs continuous adversarial research across repos and agents. Validate proves each finding is real, reproducing it safely and ruling out noise before anything reaches a human. Fix ships a validated fix as a PR your team reviews and merges. Disclose handles coordinated disclosure from embargo to advisory.
 
-**Validate** proves each finding is real, reproduces it safely, and rules out noise before anything reaches a human.
-
-**Fix** ships a validated fix as a PR your team reviews and merges. No dashboards. No context switching off GitHub.
-
-**Disclose** handles coordinated disclosure from embargo to advisory in one workflow.
-
-The GitHub App runs it all in production. Security skills and CLA checks bring Superagent into existing CI/CD workflows.
+The GitHub App is how teams run Superagent in production. Security skills and CLA checks bring Superagent into existing CI/CD workflows.
 
 ---
 
