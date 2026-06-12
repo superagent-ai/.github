@@ -36,26 +36,19 @@ We don't care what model sits underneath. Best one this month, a different one n
 
 ## Overview
 
-Superagent is an AI security engine for code and agents. Find vulnerabilities across your repos, validate exploit paths, and ship fixes your team approves — all inside your existing GitHub workflow.
-
-The platform follows a simple workflow:
+Superagent is how engineering teams close vulnerabilities without expanding their security team:
 
 > **Find → Validate → Fix → Disclose**
 
----
+**Find** runs continuous adversarial research across repos and agents, chaining findings the way a real attacker builds a kill chain.
 
-## What Superagent Does
+**Validate** proves each finding is real, reproduces it safely, and rules out noise before anything reaches a human.
 
-One engine, one GitHub-native workflow, one output: a pull request with a validated fix.
+**Fix** ships a validated fix as a PR your team reviews and merges. No dashboards. No context switching off GitHub.
 
-| Capability | Job |
-| --- | --- |
-| **Find** | Continuous adversarial research across repos and agents. Chains findings the way a real attacker builds a kill chain — finding what static scanners miss. |
-| **Patch** | Every validated fix ships as a PR your team approves. No new dashboard, no context switching off GitHub. |
-| **Triage** | Deduplicates and prioritizes incoming vulnerability reports. Surfaces real exploit paths from noise automatically. |
-| **Scan** | PR scanning runs on every pull request so security issues are caught before code merges. |
-| **Disclose** | Coordinated disclosure with severity tracking, embargo timelines, and advisory publishing. |
-| **Trust** | Contributor trust scores and CLA checks on every PR. Outside contributors sign once, maintainers stay compliant. |
+**Disclose** handles coordinated disclosure from embargo to advisory in one workflow.
+
+The GitHub App runs it all in production. Security skills and CLA checks bring Superagent into existing CI/CD workflows.
 
 ---
 
